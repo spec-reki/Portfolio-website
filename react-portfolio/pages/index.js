@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
+import {AiFillTwitterCircle, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
+import Image from "next/image";
+import deved from '../public/remakelogo.png';
 
 export default function Home() {
   return (
@@ -23,6 +26,29 @@ export default function Home() {
               href="#">Resume</a></li>
             </ul>
           </nav>
+
+          <div className='text-center p-10 py-10'>
+
+            <h2 className='text-5xl py-2 font-comfortaa font-bold text-teal-800'>Spec-Reki</h2>
+            <h3 className=' text-2xl py-2 font-comfortaa'>GameDev Designer, Progamist and Artist.</h3>
+            <p className=' text-md font-comfortaa py-5 leading-7 text-gray-800'>
+              Guy who know how to make you smile. His amazing jobs are sucessfully taking the world. 
+              Actually, he is working on inide game called DeadlyPlaceProject 
+            </p>
+
+          </div>
+
+          <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-600'>
+            <AiFillGithub />
+            <AiFillInstagram />
+            <AiFillTwitterCircle />
+            
+            
+          </div>
+
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+            <Image src={deved} layout="fill" objectFit='cover'/>
+          </div>
         </section>
       </main>
 
