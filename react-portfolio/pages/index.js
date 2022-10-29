@@ -3,6 +3,9 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
 import Image from "next/image";
 import deved from '../public/remakelogo.png';
+import design from '../public/design.png';
+//import code from '../public/code.png';
+//import consulting from '../public/coonsulting.png';
 
 export default function Home() {
   return (
@@ -22,18 +25,18 @@ export default function Home() {
             <h1 className=' text-xl font-comfortaa'>Spec-Reki Enterprises</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill  className='cursor-pointer text-2xl'/></li>
-              <li><a className=" bg-gradient-to-r from-red-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" 
+              <li><a className=" bg-gradient-to-r from-red-500 to-rose-900 text-white px-4 py-2 rounded-md ml-8" 
               href="#">Resume</a></li>
             </ul>
           </nav>
 
           <div className='text-center p-10 py-10'>
 
-            <h2 className='text-5xl py-2 font-comfortaa font-bold text-teal-800'>Spec-Reki</h2>
+            <h2 className='text-5xl py-2 font-comfortaa font-bold text-rose-600'>Spec-Reki</h2>
             <h3 className=' text-2xl py-2 font-comfortaa'>GameDev Designer, Progamist and Artist.</h3>
             <p className=' text-md font-comfortaa py-5 leading-7 text-gray-800'>
               Guy who know how to make you smile. His amazing jobs are sucessfully taking the world. 
-              Actually, he is working on inide game called DeadlyPlaceProject 
+               Actually, he is working on inide game called DeadlyPlaceProject 
             </p>
 
           </div>
@@ -41,15 +44,38 @@ export default function Home() {
           <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-600'>
             <AiFillGithub />
             <AiFillInstagram />
-            <AiFillTwitterCircle />
-            
-            
+            <AiFillTwitterCircle />  
           </div>
 
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+          <div className='relative mx-auto bg-gradient-to-b from-pink-800 rounded-full w-80 h-80 mt-20 overflow-hidden'>
             <Image src={deved} layout="fill" objectFit='cover'/>
           </div>
         </section>
+
+        <section>
+        <div className=' p-10 py-20'>
+          <h3 className=' text-3xl py-1 font-comfortaa font-bold'>Services I offer</h3>
+          <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold'> 
+          As a amatour graphic and game designer,
+          I worked on few little indie projects with <span className=' text-rose-600'>Spec-Team</span>.
+          I've done plenty of remote work for byte.space and my middle school - ZSEiT Olsztyn, Poland.
+          As <span className=' text-rose-600'>graphic designer</span> I supported big organizations 
+          like Polish Scouting Association during <span className=' text-rose-600'>big events</span> in Varmian-Masurian voivodeship in Poland.
+          Everything I've learned and achived, I did by myself.</p>
+
+          <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold' >
+          I offer a wide range of services, including merch designing, 
+          game designing, level designing, game and api programming.
+          </p>
+        </div>
+
+        <div>
+          <Image src={design} width={100} height={100}/>
+          <h3>My designs</h3>
+        </div>
+
+        </section>
+
       </main>
 
     </div>
