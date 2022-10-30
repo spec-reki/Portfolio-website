@@ -4,8 +4,8 @@ import {AiFillTwitterCircle, AiFillInstagram, AiFillGithub } from 'react-icons/a
 import Image from "next/image";
 import deved from '../public/remakelogo.png';
 import design from '../public/design.png';
-//import code from '../public/code.png';
-//import consulting from '../public/coonsulting.png';
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
           <div className='text-center p-10 py-10'>
 
             <h2 className='text-5xl py-2 font-comfortaa font-bold text-rose-600'>Spec-Reki</h2>
-            <h3 className=' text-2xl py-2 font-comfortaa'>GameDev Designer, Progamist and Artist.</h3>
+            <h3 className=' text-2xl py-2 font-comfortaa'>GameDev Designer, Progamist and Artist</h3>
             <p className=' text-md font-comfortaa py-5 leading-7 text-gray-800'>
               Guy who know how to make you smile. His amazing jobs are sucessfully taking the world. 
                Actually, he is working on inide game called DeadlyPlaceProject 
@@ -52,10 +52,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section  className=' font-comfortaa'>
         <div className=' p-10 py-20'>
-          <h3 className=' text-3xl py-1 font-comfortaa font-bold'>Services I offer</h3>
-          <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold'> 
+          <h3 className=' text-3xl py-1 font-bold'>Services I offer</h3>
+          <p className=' text-md py-2 leading-8 text-gray-800 font-bold'> 
           As a amatour graphic and game designer,
           I worked on few little indie projects with <span className=' text-rose-600'>Spec-Team</span>.
           I've done plenty of remote work for byte.space and my middle school - ZSEiT Olsztyn, Poland.
@@ -68,10 +68,22 @@ export default function Home() {
           game designing, level designing, game and api programming.
           </p>
         </div>
-
-        <div>
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+         <div>
           <Image src={design} width={100} height={100}/>
-          <h3>My designs</h3>
+          <h3 className=' text-lg font-bold pt-8 pb-2'>My designs</h3>
+          <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
+             nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
+             non porta ipsum, non viverra justo. Nam ornare, neque et molestie mattis, ex leo iaculis
+             libero, vel tincidunt magna eros sit amet risus. Orci varius natoque penatibus et magnis
+             dis parturient montes, nascetur ridiculus mus. Duis aliquet, risus nec tempus porta, 
+             neque augue hendrerit eros, vitae</p>
+          <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
+          <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
+          <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
+          <p className=' text-gray-800 py-1'>Bender</p>
+          <p className=' text-gray-800 py-1'>Figma</p>
+        </div>
         </div>
 
         </section>
