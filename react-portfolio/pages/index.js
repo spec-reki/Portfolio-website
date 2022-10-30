@@ -4,8 +4,8 @@ import {AiFillTwitterCircle, AiFillInstagram, AiFillGithub } from 'react-icons/a
 import Image from "next/image";
 import deved from '../public/remakelogo.png';
 import design from '../public/design.png';
-//import code from '../public/code.png';
-//import consulting from '../public/coonsulting.png';
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
 
 export default function Home() {
   return (
@@ -68,9 +68,9 @@ export default function Home() {
           game designing, level designing, game and api programming.
           </p>
         </div>
-        <div>
-        <div className='text-center shadow-lg p-10 rounded-xl my-10 snap-x'>
-          <Image src={design} width={100} height={100} className='text-center'/>
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+         <div>
+          <Image src={design} width={100} height={100}/>
           <h3 className=' text-lg font-bold pt-8 pb-2'>My designs</h3>
           <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
              nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
