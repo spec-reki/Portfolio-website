@@ -53,82 +53,85 @@ export default function Home() {
         </section>
 
         <section  className=' font-comfortaa'>
-        <div className=' p-10 py-20'>
-          <h3 className=' text-3xl py-1 font-bold'>Services I offer</h3>
-          <p className=' text-md py-2 leading-8 text-gray-800 font-bold'> 
-          As a amatour graphic and game designer,
-          I worked on few little indie projects with <span className=' text-rose-600'>Spec-Team</span>.
-          I've done plenty of remote work for byte.space and my middle school - ZSEiT Olsztyn, Poland.
-          As <span className=' text-rose-600'>graphic designer</span> I supported big organizations 
-          like Polish Scouting Association during <span className=' text-rose-600'>big events</span> in Varmian-Masurian voivodeship in Poland.
-          Everything I've learned and achived, I did by myself.</p>
+          <div className=' p-10 py-20'>
+            <h3 className=' text-3xl py-1 font-bold'>Services I offer</h3>
+            <p className=' text-md py-2 leading-8 text-gray-800 font-bold'> 
+            As a amatour graphic and game designer,
+            I worked on few little indie projects with <span className=' text-rose-600'>Spec-Team</span>.
+            I've done plenty of remote work for byte.space and my middle school - ZSEiT Olsztyn, Poland.
+            As <span className=' text-rose-600'>graphic designer</span> I supported big organizations 
+            like Polish Scouting Association during <span className=' text-rose-600'>big events</span> in Varmian-Masurian voivodeship in Poland.
+            Everything I've learned and achived, I did by myself.</p>
 
-          <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold' >
-          I offer a wide range of services, including merch designing, 
-          game designing, level designing, game and api programming.
-          </p>
-        </div>
-
-
-        <div className=" text-center shadow-lg p-10 rounded-xl my-10">
-         <div>
-          <Image src={design} width={100} height={100}/>
-          <h3 className=' text-lg font-bold pt-8 pb-2'>My designs</h3>
-          <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
-             nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
-             non porta ipsum, non viverra justo. Nam ornare, neque et molestie mattis, ex leo iaculis
-             libero, vel tincidunt magna eros sit amet risus. Orci varius natoque penatibus et magnis
-             dis parturient montes, nascetur ridiculus mus. Duis aliquet, risus nec tempus porta, 
-             neque augue hendrerit eros, vitae</p>
-          <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
-          <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
-          <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
-          <p className=' text-gray-800 py-1'>Bender</p>
-          <p className=' text-gray-800 py-1'>Figma</p>
-        </div>
-        </div>
+            <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold' >
+            I offer a wide range of services, including merch designing, 
+            game designing, level designing, game and api programming.
+            </p>
+          </div>
 
 
-        <div className=" text-center shadow-lg p-10 rounded-xl my-10">
-         <div>
-          <Image src={code} width={100} height={100}/>
-          <h3 className=' text-lg font-bold pt-8 pb-2'>What about technologies i use?</h3>
-          <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
-             nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
-             non porta ipsum, non viverra justo. Nam ornare, neque et molestie mattis, ex leo iaculis
-             libero, vel tincidunt magna eros sit amet risus. Orci varius natoque penatibus et magnis
-             dis parturient montes, nascetur ridiculus mus. Duis aliquet, risus nec tempus porta, 
-             neque augue hendrerit eros, vitae</p>
-          <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
-          <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
-          <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
-          <p className=' text-gray-800 py-1'>Bender</p>
-          <p className=' text-gray-800 py-1'>Figma</p>
-        </div>
-        </div>
+          <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+            <div>
+              <Image src={design} width={100} height={100}/>
+              <h3 className=' text-lg font-bold pt-8 pb-2'>My designs</h3>
+              <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
+                nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
+                non porta ipsum, non viverra justo. Nam ornare, neque et molestie mattis, ex leo iaculis
+                libero, vel tincidunt magna eros sit amet risus. Orci varius natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus mus. Duis aliquet, risus nec tempus porta, 
+                neque augue hendrerit eros, vitae</p>
+              <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
+              <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
+              <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
+              <p className=' text-gray-800 py-1'>Bender</p>
+              <p className=' text-gray-800 py-1'>Figma</p>
+            </div>
+          </div>
 
 
-        <div className=" text-center shadow-lg p-10 rounded-xl my-10">
-         <div>
-          <Image src={consulting} width={100} height={100}/>
-          <h3 className=' text-lg font-bold pt-8 pb-2'>Do you have a quest for me?</h3>
-          <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
-             nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
-             non porta ipsum, non viverra justo. Nam ornare, neque et molestie mattis, ex leo iaculis
-             libero, vel tincidunt magna eros sit amet risus. Orci varius natoque penatibus et magnis
-             dis parturient montes, nascetur ridiculus mus. Duis aliquet, risus nec tempus porta, 
-             neque augue hendrerit eros, vitae</p>
-          <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
-          <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
-          <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
-          <p className=' text-gray-800 py-1'>Bender</p>
-          <p className=' text-gray-800 py-1'>Figma</p>
-        </div>
-        </div>
+          <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+            <div>
+              <Image src={code} width={100} height={100}/>
+              <h3 className=' text-lg font-bold pt-8 pb-2'>What about technologies i use?</h3>
+              <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
+                nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
+                non porta ipsum, non viverra justo. Nam ornare, neque et molestie mattis, ex leo iaculis
+                libero, vel tincidunt magna eros sit amet risus. Orci varius natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus mus. Duis aliquet, risus nec tempus porta, 
+                neque augue hendrerit eros, vitae</p>
+              <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
+              <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
+              <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
+
+            </div>
+          </div>
+
+
+          <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+            <div>
+              <Image src={consulting} width={100} height={100}/>
+              <h3 className=' text-lg font-bold pt-8 pb-2'>Do you have a quest for me?</h3>
+              <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
+                nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
+                non porta ipsum, non viverra justo. Nam ornare, neque et molestie mattis, ex leo iaculis
+                libero, vel tincidunt magna eros sit amet risus. Orci varius natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus mus. Duis aliquet, risus nec tempus porta, 
+                neque augue hendrerit eros, vitae</p>
+              <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
+              <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
+              <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
+
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className=' font-comfortaa'>
+            <h3 className=' text-3xl py-1 font-bold'>Portfolio</h3>
+          </div>
         </section>
 
       </main>
-
     </div>
   )
 }
