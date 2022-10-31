@@ -6,6 +6,15 @@ import deved from '../public/remakelogo.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
+import web1 from '../public/web1.png'
+import web2 from '../public/web2.png'
+import web3 from '../public/web3.png'
+import web4 from '../public/web4.png'
+import web5 from '../public/web5.png'
+import web6 from '../public/web6.png'
+
+
+
 
 export default function Home() {
   return (
@@ -128,6 +137,27 @@ export default function Home() {
         <section>
           <div className=' font-comfortaa'>
             <h3 className=' text-3xl py-1 font-bold'>Portfolio</h3>
+            <p className=' text-md py-2 leading-8 text-gray-800 font-bold'> 
+            As a amatour graphic and game designer,
+            I worked on few little indie projects with <span className=' text-rose-600'>Spec-Team</span>.
+            I've done plenty of remote work for byte.space and my middle school - ZSEiT Olsztyn, Poland.
+            As <span className=' text-rose-600'>graphic designer</span> I supported big organizations 
+            like Polish Scouting Association during <span className=' text-rose-600'>big events</span> in Varmian-Masurian voivodeship in Poland.
+            Everything I've learned and achived, I did by myself.</p>
+
+            <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold' >
+            I offer a wide range of services, including merch designing, 
+            game designing, level designing, game and api programming.
+            </p>
+
+          </div>
+          <div>
+            <div><Image src={web1}/></div>
+            <div><Image src={web2}/></div>
+            <div><Image src={web3}/></div>
+            <div><Image src={web4}/></div>
+            <div><Image src={web5}/></div>
+            <div><Image src={web6}/></div>
           </div>
         </section>
 
