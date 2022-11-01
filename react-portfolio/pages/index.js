@@ -61,10 +61,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section  className=' font-comfortaa'>
-          <div className=' p-10 py-20'>
-            <h3 className=' text-3xl py-1 font-bold'>Services I offer</h3>
-            <p className=' text-md py-2 leading-8 text-gray-800 font-bold'> 
+        <section  className=' font-comfortaa py-10'>
+          <div className=' p-25 py-20'>
+            <h3 className=' py-1 font-bold md: text-3xl'>Services I offer</h3>
+            <p className=' text-md py-10 leading-8 text-gray-800 font-bold '> 
             As a amatour graphic and game designer,
             I worked on few little indie projects with <span className=' text-rose-600'>Spec-Team</span>.
             I've done plenty of remote work for byte.space and my middle school - ZSEiT Olsztyn, Poland.
@@ -72,7 +72,7 @@ export default function Home() {
             like Polish Scouting Association during <span className=' text-rose-600'>big events</span> in Varmian-Masurian voivodeship in Poland.
             Everything I've learned and achived, I did by myself.</p>
 
-            <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold' >
+            <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold ' >
             I offer a wide range of services, including merch designing, 
             game designing, level designing, game and api programming.
             </p>
