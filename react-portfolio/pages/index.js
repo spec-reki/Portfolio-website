@@ -28,7 +28,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
       </Head>
 
-      <main className=' bg-white px-10 '>
+      <main className=' bg-white px-10 md:px-20 lg:px-40'>
         <section className=" h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className=' text-xl font-comfortaa'>Spec-Reki Enterprises</h1>
@@ -41,9 +41,9 @@ export default function Home() {
 
           <div className='text-center p-10 py-10'>
 
-            <h2 className='text-5xl py-2 font-comfortaa font-bold text-rose-600'>Spec-Reki</h2>
-            <h3 className=' text-2xl py-2 font-comfortaa'>GameDev Designer, Progamist and Artist</h3>
-            <p className=' text-md font-comfortaa py-5 leading-7 text-gray-800'>
+            <h2 className='text-5xl py-2 font-comfortaa font-bold text-rose-600 md:text-6xl'>Spec-Reki</h2>
+            <h3 className='py-2 font-comfortaa md: text-3xl'>GameDev Designer, Progamist and Artist</h3>
+            <p className=' text-md font-comfortaa py-5 leading-7 text-gray-800 md:text-xl max-w-xl mx-auto'>
               Guy who know how to make you smile. His amazing jobs are sucessfully taking the world. 
                Actually, he is working on inide game called DeadlyPlaceProject 
             </p>
