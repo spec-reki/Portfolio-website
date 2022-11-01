@@ -28,7 +28,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
       </Head>
 
-      <main className=' bg-white px-10 '>
+      <main className=' bg-white px-10 md:px-20 lg:px-40'>
         <section className=" h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className=' text-xl font-comfortaa'>Spec-Reki Enterprises</h1>
@@ -41,9 +41,9 @@ export default function Home() {
 
           <div className='text-center p-10 py-10'>
 
-            <h2 className='text-5xl py-2 font-comfortaa font-bold text-rose-600'>Spec-Reki</h2>
-            <h3 className=' text-2xl py-2 font-comfortaa'>GameDev Designer, Progamist and Artist</h3>
-            <p className=' text-md font-comfortaa py-5 leading-7 text-gray-800'>
+            <h2 className='text-5xl py-2 font-comfortaa font-bold text-rose-600 md:text-6xl'>Spec-Reki</h2>
+            <h3 className='py-2 font-comfortaa md: text-3xl'>GameDev Designer, Progamist and Artist</h3>
+            <p className=' text-md font-comfortaa py-5 leading-7 text-gray-800 md:text-xl max-w-xl mx-auto'>
               Guy who know how to make you smile. His amazing jobs are sucessfully taking the world. 
                Actually, he is working on inide game called DeadlyPlaceProject 
             </p>
@@ -56,15 +56,15 @@ export default function Home() {
             <AiFillTwitterCircle />  
           </div>
 
-          <div className='relative mx-auto bg-gradient-to-b from-pink-800 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+          <div className='relative mx-auto bg-gradient-to-b from-pink-800 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} layout="fill" objectFit='cover'/>
           </div>
         </section>
 
-        <section  className=' font-comfortaa'>
-          <div className=' p-10 py-20'>
-            <h3 className=' text-3xl py-1 font-bold'>Services I offer</h3>
-            <p className=' text-md py-2 leading-8 text-gray-800 font-bold'> 
+        <section  className=' font-comfortaa py-10'>
+          <div className=' p-25 py-20'>
+            <h3 className=' py-1 font-bold md: text-3xl'>Services I offer</h3>
+            <p className=' text-md py-10 leading-8 text-gray-800 font-bold '> 
             As a amatour graphic and game designer,
             I worked on few little indie projects with <span className=' text-rose-600'>Spec-Team</span>.
             I've done plenty of remote work for byte.space and my middle school - ZSEiT Olsztyn, Poland.
@@ -72,7 +72,7 @@ export default function Home() {
             like Polish Scouting Association during <span className=' text-rose-600'>big events</span> in Varmian-Masurian voivodeship in Poland.
             Everything I've learned and achived, I did by myself.</p>
 
-            <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold' >
+            <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold ' >
             I offer a wide range of services, including merch designing, 
             game designing, level designing, game and api programming.
             </p>
