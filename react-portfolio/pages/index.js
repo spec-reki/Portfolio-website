@@ -78,17 +78,15 @@ export default function Home() {
             </p>
           </div>
 
-
-          <div className=" text-center shadow-lg p-10 rounded-xl my-10">
-            <div>
+          <div className='lg:flex gap-10'>
+          <div>
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+            
               <Image src={design} width={100} height={100}/>
               <h3 className=' text-lg font-bold pt-8 pb-2'>My designs</h3>
               <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
                 nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
-                non porta ipsum, non viverra justo. Nam ornare, neque et molestie mattis, ex leo iaculis
-                libero, vel tincidunt magna eros sit amet risus. Orci varius natoque penatibus et magnis
-                dis parturient montes, nascetur ridiculus mus. Duis aliquet, risus nec tempus porta, 
-                neque augue hendrerit eros, vitae</p>
+                non porta ipsum, non viver</p>
               <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
               <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
               <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
@@ -103,11 +101,7 @@ export default function Home() {
               <Image src={code} width={100} height={100}/>
               <h3 className=' text-lg font-bold pt-8 pb-2'>What about technologies i use?</h3>
               <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
-                nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
-                non porta ipsum, non viverra justo. Nam ornare, neque et molestie mattis, ex leo iaculis
-                libero, vel tincidunt magna eros sit amet risus. Orci varius natoque penatibus et magnis
-                dis parturient montes, nascetur ridiculus mus. Duis aliquet, risus nec tempus porta, 
-                neque augue hendrerit eros, vitae</p>
+                nec sodales erat venenatis a. Nunc malesuada justo et ma</p>
               <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
               <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
               <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
@@ -121,16 +115,13 @@ export default function Home() {
               <Image src={consulting} width={100} height={100}/>
               <h3 className=' text-lg font-bold pt-8 pb-2'>Do you have a quest for me?</h3>
               <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
-                nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
-                non porta ipsum, non viverra justo. Nam ornare, neque et molestie mattis, ex leo iaculis
-                libero, vel tincidunt magna eros sit amet risus. Orci varius natoque penatibus et magnis
-                dis parturient montes, nascetur ridiculus mus. Duis aliquet, risus nec tempus porta, 
-                neque augue hendrerit eros, vitae</p>
+                nec sodales erat venenatis a. Nunc malesuada justo et mass</p>
               <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
               <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
               <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
 
             </div>
+          </div>
           </div>
         </section>
 
@@ -151,13 +142,13 @@ export default function Home() {
             </p>
 
           </div>
-          <div>
-            <div><Image src={web1}/></div>
-            <div><Image src={web2}/></div>
-            <div><Image src={web3}/></div>
-            <div><Image src={web4}/></div>
-            <div><Image src={web5}/></div>
-            <div><Image src={web6}/></div>
+          <div className=' flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div className=' basis-1/3 flex-1'><Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+            <div className=' basis-1/3 flex-1'><Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+            <div className=' basis-1/3 flex-1'><Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+            <div className=' basis-1/3 flex-1'><Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+            <div className=' basis-1/3 flex-1'><Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+            <div className=' basis-1/3 flex-1'><Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
           </div>
         </section>
 
