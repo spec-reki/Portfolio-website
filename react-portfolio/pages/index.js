@@ -44,15 +44,15 @@ export default function Home() {
           <div className='text-center p-10 py-10'>
 
             <h2 className='text-5xl py-2 font-comfortaa font-bold text-rose-600 md:text-6xl'>Spec-Reki</h2>
-            <h3 className='py-2 font-comfortaa md: text-3xl'>GameDev Designer, Progamist and Artist</h3>
-            <p className=' text-md font-comfortaa py-5 leading-7 text-gray-800 md:text-xl max-w-xl mx-auto'>
+            <h3 className='py-2 font-comfortaa md: text-3xl dark:text-white'>GameDev Designer, Progamist and Artist</h3>
+            <p className=' text-md font-comfortaa py-5 leading-7 text-gray-800 dark:text-gray-400 md:text-xl max-w-xl mx-auto'>
               Guy who know how to make you smile. His amazing jobs are sucessfully taking the world. 
                Actually, he is working on inide game called DeadlyPlaceProject 
             </p>
 
           </div>
 
-          <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-600'>
+          <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white'>
             <AiFillGithub />
             <AiFillInstagram />
             <AiFillTwitterCircle />  
@@ -64,9 +64,9 @@ export default function Home() {
         </section>
 
         <section  className=' font-comfortaa py-10'>
-          <div className=' p-25 py-20'>
-            <h3 className=' py-1 font-bold md: text-3xl'>Services I offer</h3>
-            <p className=' text-md py-10 leading-8 text-gray-800 font-bold '> 
+          <div className=' p-25 py-20 '>
+            <h3 className=' py-1 font-bold md: text-3x dark:text-white'>Services I offer</h3>
+            <p className=' text-md py-10 leading-8 text-gray-800 font-bold dark:text-gray-400'> 
             As a amatour graphic and game designer,
             I worked on few little indie projects with <span className=' text-rose-600'>Spec-Team</span>.
             I've done plenty of remote work for byte.space and my middle school - ZSEiT Olsztyn, Poland.
@@ -74,7 +74,7 @@ export default function Home() {
             like Polish Scouting Association during <span className=' text-rose-600'>big events</span> in Varmian-Masurian voivodeship in Poland.
             Everything I've learned and achived, I did by myself.</p>
 
-            <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold ' >
+            <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold dark:text-gray-400' >
             I offer a wide range of services, including merch designing, 
             game designing, level designing, game and api programming.
             </p>
@@ -82,45 +82,45 @@ export default function Home() {
 
           <div className='lg:flex gap-10'>
           <div>
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
             
               <Image src={design} width={100} height={100}/>
-              <h3 className=' text-lg font-bold pt-8 pb-2'>My designs</h3>
-              <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
+              <h3 className=' text-lg font-bold pt-8 pb-2 dark:text-white'>My designs</h3>
+              <p className=' py-2 dark:text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
                 nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
                 non porta ipsum, non viver</p>
               <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
-              <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
-              <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
-              <p className=' text-gray-800 py-1'>Bender</p>
-              <p className=' text-gray-800 py-1'>Figma</p>
+              <p className=' text-gray-800 py-1 dark:text-white'>Adobe Photoshop</p>
+              <p className=' text-gray-800 py-1 dark:text-white'>Adobe Ilustrator</p>
+              <p className=' text-gray-800 py-1 dark:text-white'>Bender</p>
+              <p className=' text-gray-800 py-1 dark:text-white'>Figma</p>
             </div>
           </div>
 
 
-          <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+          <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
             <div>
               <Image src={code} width={100} height={100}/>
-              <h3 className=' text-lg font-bold pt-8 pb-2'>What about technologies i use?</h3>
-              <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
+              <h3 className=' text-lg font-bold pt-8 pb-2 dark:text-white'>What about technologies i use?</h3>
+              <p className=' py-2  dark:text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
                 nec sodales erat venenatis a. Nunc malesuada justo et ma</p>
               <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
-              <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
-              <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
+              <p className=' text-gray-800 dark:text-white py-1'>Adobe Photoshop</p>
+              <p className=' text-gray-800 dark:text-white py-1'>Adobe Ilustrator</p>
 
             </div>
           </div>
 
 
-          <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+          <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
             <div>
               <Image src={consulting} width={100} height={100}/>
-              <h3 className=' text-lg font-bold pt-8 pb-2'>Do you have a quest for me?</h3>
-              <p className=' py-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
+              <h3 className=' text-lg font-bold pt-8 pb-2 dark:text-white '>Do you have a quest for me?</h3>
+              <p className=' py-2 dark:text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
                 nec sodales erat venenatis a. Nunc malesuada justo et mass</p>
               <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
-              <p className=' text-gray-800 py-1'>Adobe Photoshop</p>
-              <p className=' text-gray-800 py-1'>Adobe Ilustrator</p>
+              <p className=' text-gray-800 py-1 dark:text-white'>Adobe Photoshop</p>
+              <p className=' text-gray-800 py-1 dark:text-white'>Adobe Ilustrator</p>
 
             </div>
           </div>
@@ -129,8 +129,8 @@ export default function Home() {
 
         <section>
           <div className=' font-comfortaa'>
-            <h3 className=' text-3xl py-1 font-bold'>Portfolio</h3>
-            <p className=' text-md py-2 leading-8 text-gray-800 font-bold'> 
+            <h3 className=' text-3xl py-1 font-bold dark:text-white'>Portfolio</h3>
+            <p className=' text-md py-2 leading-8 text-gray-800 font-bold dark:text-gray-400'> 
             As a amatour graphic and game designer,
             I worked on few little indie projects with <span className=' text-rose-600'>Spec-Team</span>.
             I've done plenty of remote work for byte.space and my middle school - ZSEiT Olsztyn, Poland.
@@ -138,7 +138,7 @@ export default function Home() {
             like Polish Scouting Association during <span className=' text-rose-600'>big events</span> in Varmian-Masurian voivodeship in Poland.
             Everything I've learned and achived, I did by myself.</p>
 
-            <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold' >
+            <p className=' text-md py-2 leading-8 text-gray-800 font-comfortaa font-bold dark:text-gray-400' >
             I offer a wide range of services, including merch designing, 
             game designing, level designing, game and api programming.
             </p>
