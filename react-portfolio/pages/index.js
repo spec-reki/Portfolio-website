@@ -37,7 +37,7 @@ export default function Home() {
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/></li>
               <li><a className=" bg-gradient-to-r from-red-500 to-rose-900 text-white px-4 py-2 rounded-md ml-8" 
-              href="#">Resume</a></li>
+              href="https://github.com/spec-reki">Resume</a></li>
             </ul>
           </nav>
 
@@ -53,9 +53,9 @@ export default function Home() {
           </div>
 
           <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white'>
-            <AiFillGithub />
-            <AiFillInstagram />
-            <AiFillTwitterCircle />  
+            <a href="https://github.com/spec-reki"><AiFillGithub /></a>
+            <a href="https://www.instagram.com/spec_reki/"><AiFillInstagram /></a>
+            <a href=""><AiFillTwitterCircle /></a> 
           </div>
 
           <div className='relative mx-auto bg-gradient-to-b from-pink-800 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
