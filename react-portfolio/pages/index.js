@@ -13,6 +13,7 @@ import web4 from '../public/web4.png'
 import web5 from '../public/web5.png'
 import web6 from '../public/web6.png'
 import {useState} from "react";
+import startsite from "../pages/start.js"
 
 
 
@@ -31,13 +32,13 @@ export default function Home() {
       </Head>
 
       <main className=' bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
-        <section className=" h-screen">
+        <section className="">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className=' text-xl font-comfortaa dark:text-white'>Spec-Reki Enterprises</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/></li>
               <li><a className=" bg-gradient-to-r from-red-500 to-rose-900 text-white px-4 py-2 rounded-md ml-8" 
-              href="https://github.com/spec-reki">Resume</a></li>
+              href={startsite}>Resume</a></li>
             </ul>
           </nav>
 
@@ -63,7 +64,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section  className=' font-comfortaa py-10'>
+        <section  className=' font-comfortaa '>
           <div className=' p-25 py-20 '>
             <h3 className=' py-1 font-bold md: text-3x dark:text-white'>Services I offer</h3>
             <p className=' text-md py-10 leading-8 text-gray-800 font-bold dark:text-gray-400'> 
