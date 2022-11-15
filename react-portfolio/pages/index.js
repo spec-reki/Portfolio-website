@@ -86,15 +86,11 @@ export default function Home() {
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
             
               <Image src={design} width={100} height={100}/>
-              <h3 className=' text-lg font-bold pt-8 pb-2 dark:text-white'>My designs</h3>
-              <p className=' py-2 dark:text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod libero tortor,
-                nec sodales erat venenatis a. Nunc malesuada justo et massa ullamcorper auctor. Vivamus 
-                non porta ipsum, non viver</p>
-              <h4 className=' py-4 text-rose-600 font-bold'>Design tools i use</h4>
-              <p className=' text-gray-800 py-1 dark:text-white'>Adobe Photoshop</p>
-              <p className=' text-gray-800 py-1 dark:text-white'>Adobe Ilustrator</p>
-              <p className=' text-gray-800 py-1 dark:text-white'>Bender</p>
-              <p className=' text-gray-800 py-1 dark:text-white'>Figma</p>
+              <h3 className=' text-lg font-bold pt-8 pb-2 dark:text-white'>Render December</h3>
+              <p className=' py-2 dark:text-white'>For a month, I'am gonna work for commercial success. Every day of
+              December I'am gonna to crate 1 render in blender. Wish me good luck!</p>
+              <h4 className=' py-4 text-rose-600 font-bold'> - - - </h4>
+              
             </div>
           </div>
 
